@@ -4,7 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astro Project</title>
-    
+    <style>
+
+        body {
+            line-height: 1.5;
+            font-family: sans-serif;
+            font-size: clamp(1.125rem, 2vw, 1.25rem)
+
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin: 40rem 0rem;
+            text-align: center;
+        }
+
+        p, li {
+            animation: fade linear both;
+            animation-timeline: view();
+            animation-range: entry 50% cover 50%;
+        }
+
+        @keyframes fade {
+            from {
+                opacity:0;
+            }
+            to {
+                opacity:1;
+            }
+            0% {
+                opacity:0;
+            }
+        }
+
+        h2 {
+            background : linear-gradient(90deg, black, transparent);
+            background-size: 200%;
+            animation: reveal linear both;
+            animation-timeline: view();
+            animation-repeat: no-repeat;
+            animation-range: entry 50% cover 50%;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        @keyframes reveal {
+            from {
+                background-position-x: 200%;
+            }
+            to {
+                background-position-x: 0%;
+            }
+        }
+
+    </style>
 
 </head>
 <body>
@@ -39,49 +93,52 @@
         <p >With Vanilla JavaScript, you have the power to create interactive and dynamic web applications from scratch, making it an essential skill for web developers.</p>
         <p>Happy coding! 🚀👨‍💻</p>
 
-        <h1>New CSS Features in Web Browsers 🚀</h1>
+        <h2>New CSS Features in Web Browsers 🚀</h2>
     
         <p>Web browsers are constantly evolving, and with each new version, they bring exciting CSS features that empower web developers to create stunning and interactive websites. In this article, we'll explore some of the latest CSS features that are on the horizon.</p>
 
         <!-- Feature 1: CSS Grid Level 2 -->
-        <h2>CSS Grid Level 2 📊</h2>
+        <h3>CSS Grid Level 2 📊</h3>
         <p>CSS Grid has been a game-changer for creating complex layouts, and now, CSS Grid Level 2 is set to take it even further. It introduces subgrid support, allowing nested grids to align with their parent grids seamlessly.</p>
         <p>This feature simplifies the creation of multi-dimensional layouts, making it easier to build responsive and flexible designs. It's a significant enhancement for web developers seeking pixel-perfect control over their layouts.</p>
 
         <!-- Feature 2: Scroll Snap -->
-        <h2>Scroll Snap 📜</h2>
+        <h3>Scroll Snap 📜</h3>
         <p>Scroll Snap is a CSS property that enables smooth scrolling experiences on web pages. With Scroll Snap, you can define specific points where the scroll should stop, creating intuitive navigation through content.</p>
         <p>It's perfect for image galleries, carousels, and long articles. Users will appreciate the precise control over scrolling, enhancing the overall user experience.</p>
     
 
         <!-- Feature 3: CSS Custom Properties (Variables) in Media Queries -->
-        <h2>CSS Custom Properties (Variables) in Media Queries 🎨</h2>
+        <h3>CSS Custom Properties (Variables) in Media Queries 🎨</h3>
         <p>Custom Properties, also known as CSS Variables, have been a staple for managing design systems. Now, you can use them directly in media queries, allowing for dynamic responsive designs.</p>
         <p>With this feature, you can adjust colors, font sizes, and other styles based on screen sizes and orientations, providing a consistent and visually appealing experience across various devices.</p>
     
 
         <!-- Feature 4: CSS Houdini Paint API -->
-        <h2>CSS Houdini Paint API 🎨</h2>
+        <h3>CSS Houdini Paint API 🎨</h3>
         <p>CSS Houdini is a set of APIs that provide unprecedented access to the browser's rendering engine. The Paint API, in particular, enables custom paint worklets, allowing developers to create unique graphical effects and backgrounds.</p>
         <p>This feature opens up a world of possibilities for creative web design. It empowers developers to craft visually stunning and distinctive websites that were previously challenging to achieve with standard CSS.</p>
    
 
         <!-- Feature 5: CSS Contain Property -->
-        <h2>CSS Contain Property 🧩</h2>
+        <h3>CSS Contain Property 🧩</h3>
         <p>The CSS Contain property is designed to improve rendering performance by isolating elements from the rest of the page. It's particularly useful for complex web applications with many components.</p>
         <p>By declaring containment, you can minimize layout recalculations and repaints, resulting in faster load times and smoother interactions. It's a valuable tool for optimizing web performance.</p>
    
 
         <!-- Feature 6: CSS Nesting -->
-        <h2>CSS Nesting 📦</h2>
+        <h3>CSS Nesting 📦</h3>
         <p>CSS Nesting simplifies the way you write styles by allowing you to nest selectors within each other, similar to how you nest elements in HTML or structures in programming languages.</p>
         <p>This feature enhances code readability and maintainability, making it easier to organize and manage styles, especially in larger projects.</p>
     
 
         <!-- Conclusion -->
-        <h2>Conclusion 🌟</h2> 
+        <h3>Conclusion 🌟</h3> 
         <p>These upcoming CSS features promise to revolutionize web design and development. As web browsers continue to support these enhancements, web developers will have more tools at their disposal to create visually stunning and performant websites.</p>
         <p>Stay tuned for updates and explore these features to take your web development skills to the next level!</p>
+
+        <p>.</p>
+        <p>.</p>
     
     </article> 
 </body>
