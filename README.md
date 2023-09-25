@@ -1,3 +1,25 @@
+
+
+## Introduction
+
+Welcome to Your Astro Project! This project is a showcase of the Astro web framework, designed to demonstrate its capabilities and how it can be used to build fast and efficient web applications. In addition, this project features an engaging Vanilla CSS scroll animation that enhances the user experience as they navigate the content.
+
+**What are Vanilla CSS Scroll Animations?**
+
+Vanilla CSS scroll animations are a way to add subtle and eye-catching animations to your web pages as users scroll down the content. These animations can bring life to your website, making it more engaging and visually appealing. The animations are achieved using pure CSS, without the need for JavaScript libraries or frameworks.
+
+To learn more about Vanilla CSS scroll animations and explore various animation techniques, visit [Scroll-Driven Animations](https://scroll-driven-animations.style/).
+
+
+## Features
+
+- 🚀 Blazing Fast Loading
+- 📦 Zero JS By Default
+- 🌐 Universal Rendering
+- 🎨 Framework Agnostic
+- 🧩 Component-Oriented
+
+
 # Astro Starter Kit: Basics
 
 ```sh
@@ -52,3 +74,10 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## Author
+
+- [LinkedIn](https://www.linkedin.com/in/rishikesh-jagadale-331812207/)
+- [Github](https://github.com/rissh)
+
+🚀 Happy coding! 🚀
